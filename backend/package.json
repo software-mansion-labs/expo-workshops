@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node --presets env"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.13.1",
+    "graphql-relay": "^0.5.4"
+  },
+  "name": "my-movies-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.15.0"
+  }
+}
