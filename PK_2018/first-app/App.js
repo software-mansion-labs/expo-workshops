@@ -1,11 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import Sunrise from './Sunrise';
 
 export default class App extends React.Component {
+
   render() {
     return (
       <View style={styles.container}>
-        <Text>First expo app!</Text>
+        <Text>Hurray!</Text>
+        <Sunrise />
       </View>
     );
   }
